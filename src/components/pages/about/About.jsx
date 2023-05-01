@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
-import Info from "../../components/custom/info/Info";
-import Languages from "../../components/custom/languages/Languages";
+import Info from "../../custom/info/Info";
+import Languages from "../../custom/languages/Languages";
 
 const About = () => {
   return (
