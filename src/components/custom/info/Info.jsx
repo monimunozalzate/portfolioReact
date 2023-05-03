@@ -1,10 +1,11 @@
 import { Box, IconButton, Typography } from "@mui/material";
 import styles from "./Info.module.css";
-import { Link } from "react-scroll";
-import { useWindowSize } from "../../../hooks/useWindowSize";
+import {  Link } from "react-scroll";
+import { useWindowSize } from "../../../utils/useWindowSize";
 
 const Info = () => {
   const size = useWindowSize();
+ 
   return (
     <Box className={styles.infoContainer}>
       <Box className={styles.navbar}>
@@ -29,11 +30,6 @@ const Info = () => {
           </IconButton>
         </Box>
       </Box>
-      <img
-        src="src/assets/images/pattern-rings.svg"
-        alt="rings"
-        className={styles.rings}
-      />
       <Box className={styles.personsinfo}>
         <Box>
           <Typography variant="h1" className={styles.h1}>
@@ -70,15 +66,10 @@ const Info = () => {
           alt=""
           className={styles.circle}
         />
-        <Link
-          to="#contact"
-          smooth={true}
-          duration={500}
-          className={styles.link}
-        >
+        <Link smooth={true} delay={500} to="ContactID" className={styles.link}>
           CONTACT ME
-        </Link>
-      </Box>
+        </Link >
+      </Box>      
       <hr style={{ border: "1px solid #fff" }} />
     </Box>
   );

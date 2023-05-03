@@ -1,8 +1,10 @@
-
+import { Element } from "react-scroll";
 
 const Contact = () => {
   return (
-    <div id="contact">Contact</div>
+    <Element name="ContactID">
+    <div>Contact</div>
+    </Element>
   )
 }
 

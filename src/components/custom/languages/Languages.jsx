@@ -19,7 +19,7 @@ const languages = [
 
 const Languages = () => {
   return (
-    <>
+    < >
     <Grid container  className={styles.grid}>
       {languages.map((language) => {
         return (
@@ -34,7 +34,7 @@ const Languages = () => {
         );
       })}
     </Grid>
-    <hr/>
+    <hr className={styles.horizontalLine}/>
     </>
   );
 };
