@@ -5,7 +5,7 @@
     letter-spacing: 2.29px;
     color: #fff;
     border-bottom: 1px solid #4EE1A0;
-    width: 120px;
+    height: 38px;
 }
 
 .flex .link:hover {
@@ -26,4 +26,12 @@
     line-height: 88px;
     letter-spacing: -2.5px;
     color: #fff;
+}
+
+@media (max-width:600px) {
+    .flex .title {
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: -1.14px;
+    }
 }
