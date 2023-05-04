@@ -16,9 +16,15 @@
     top: 83%;
 }
 
-@media (max-width:800px) {
+@media (max-width:1200px) {
     .aboutContainer {
-        padding: 1.8rem;
+        padding: 2rem;
+    }
+}
+
+@media (max-width:900px) {
+    .aboutContainer {
+        padding: 0 0 1.8rem;
     }
     .rings {
         left: -276px;

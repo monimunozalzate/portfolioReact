@@ -23,9 +23,12 @@
     display: none;
 }
 
-@media (max-width:800px) {
+@media (max-width:900px) {
     .experience {
         margin-bottom: 3.2rem !important;
+    }
+    .grid {
+        padding: 1.8rem;
     }
 }
 

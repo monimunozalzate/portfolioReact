@@ -1,6 +1,6 @@
 import { Box, IconButton, Typography } from "@mui/material";
 import styles from "./Info.module.css";
-import {  Link } from "react-scroll";
+import { Link } from "react-scroll";
 import { useWindowSize } from "../../../utils/useWindowSize";
 
 const Info = () => {
