@@ -1,0 +1,18 @@
+.formContainer {
+    padding: 2rem 10.3rem;
+}
+
+.formContainer .title {
+    color: #fff;
+    font-weight: 700;
+    font-size: 88px;
+    line-height: 88px;
+    letter-spacing: -2.5px;
+}
+
+.formContainer .paragraph {
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
