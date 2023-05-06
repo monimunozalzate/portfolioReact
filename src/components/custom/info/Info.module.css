@@ -145,9 +145,7 @@
     flex-direction: column;
     gap: 1.25rem;
   }
-  .infoContainer .navbar .iconsBox {
-    margin-right: 1.6rem;
-  }
+ 
   .infoContainer .profilePicture {
     width: 174px;
     right: 28%;
