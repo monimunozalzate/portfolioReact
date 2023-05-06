@@ -1,5 +1,6 @@
 .formContainer {
   padding: 4rem 10.3rem 0;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   border: 1px solid #242424;
@@ -24,7 +25,7 @@
   display: flex;
   flex-direction: column;
   gap: 3rem;
-  max-width: 40%;
+  width: 40%;
 }
 
 .textField label,
