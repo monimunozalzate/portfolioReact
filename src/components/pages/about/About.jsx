@@ -7,13 +7,13 @@ const About = () => {
   return (
     <Box  className={styles.aboutContainer} id='about'>
        <img
-        src="src/assets/images/pattern-rings.svg"
+        src="https://res.cloudinary.com/dwqrlr45w/image/upload/v1683341047/react-portfolio-frontendMentor/images/pattern-rings_px1dhk.svg"
         alt="rings"
         className={styles.rings}
       />
       <Info />
       <Languages />
-      <img src="src/assets/images/pattern-rings.svg" alt="rings" className={styles.bottomRing} />
+      <img src="https://res.cloudinary.com/dwqrlr45w/image/upload/v1683341047/react-portfolio-frontendMentor/images/pattern-rings_px1dhk.svg" alt="rings" className={styles.bottomRing} />
     </Box>
   );
 };

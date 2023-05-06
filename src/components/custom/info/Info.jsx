@@ -22,27 +22,27 @@ const Info = () => {
         </Box>
         {size.width > 800 && (
           <img
-            src="src/assets/images/image-profile-desktop.webp"
+            src="https://res.cloudinary.com/dwqrlr45w/image/upload/v1683341046/react-portfolio-frontendMentor/images/image-profile-desktop_ysqoy4.webp"
             alt="profile picture"
             className={styles.profilePicture}
           />
         )}
         {size.width > 600 && size.width < 800 && (
           <img
-            src="src\assets\images\image-profile-tablet.webp"
+            src="https://res.cloudinary.com/dwqrlr45w/image/upload/v1683341047/react-portfolio-frontendMentor/images/image-profile-tablet_qv4qya.webp"
             alt="profile picture"
             className={styles.profilePicture}
           />
         )}
         {size.width < 600 && (
           <img
-            src="src\assets\images\image-profile-mobile.webp"
+            src="https://res.cloudinary.com/dwqrlr45w/image/upload/v1683341047/react-portfolio-frontendMentor/images/image-profile-mobile_ibmmzp.webp"
             alt="profile picture"
             className={styles.profilePicture}
           />
         )}
         <img
-          src="src\assets\images\pattern-circle.svg"
+          src="https://res.cloudinary.com/dwqrlr45w/image/upload/v1683341047/react-portfolio-frontendMentor/images/pattern-circle_pawave.svg"
           alt=""
           className={styles.circle}
         />
