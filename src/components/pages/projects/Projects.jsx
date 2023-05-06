@@ -5,7 +5,7 @@ import styles from './Projects.module.css';
 
 const Projects = () => {
   return (
-    <Box sx={{backgroundColor: "#151515"}} className={styles.projectsContainer}>
+    <Box  className={styles.projectsContainer}>
       <Element name="projects">
         <Portfolio />
       </Element>

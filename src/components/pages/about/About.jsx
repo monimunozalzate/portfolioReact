@@ -5,7 +5,7 @@ import styles from './About.module.css';
 
 const About = () => {
   return (
-    <Box sx={{backgroundColor: "#151515"}} className={styles.aboutContainer} id='about'>
+    <Box  className={styles.aboutContainer} id='about'>
        <img
         src="src/assets/images/pattern-rings.svg"
         alt="rings"
