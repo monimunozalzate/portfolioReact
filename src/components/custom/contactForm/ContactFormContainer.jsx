@@ -1,6 +1,7 @@
 import { useFormik } from "formik";
 import ContactForm from "./ContactForm";
 import * as Yup from "yup";
+import swal from 'sweetalert';
 
 const ContactFormContainer = () => {
   const { values, errors, handleSubmit, handleChange } = useFormik({
@@ -11,13 +12,14 @@ const ContactFormContainer = () => {
     },
     onSubmit: (data) => {
       console.log(data);
+      swal("Good job!", "Your message was sent!", "success");
       console.log("se envio el formulario");
     },
     validationSchema: Yup.object().shape({
       name: Yup.string()
         .required("This field is required")
         .min(3, "The name should have a minimum of 3 letters."),
-      email: Yup.string
+      email: Yup.string()
         .email("The entered text doesnt match with an email acount")
         .required("This field is required"),
       message: Yup.string()

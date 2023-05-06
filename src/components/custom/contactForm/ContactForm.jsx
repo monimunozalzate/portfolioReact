@@ -28,6 +28,8 @@ const ContactForm = ({ values, errors, handleChange, handleSubmit }) => {
           className={styles.textField}
           name="name"
           onChange={handleChange}
+          error={errors.name}
+          helperText={errors.name}
         />
 
         <TextField
@@ -37,6 +39,8 @@ const ContactForm = ({ values, errors, handleChange, handleSubmit }) => {
           className={styles.textField}
           name="email"
           onChange={handleChange}
+          error={errors.email}
+          helperText={errors.email}
         />
         <TextField
           id="filled-multiline-static"
@@ -48,6 +52,8 @@ const ContactForm = ({ values, errors, handleChange, handleSubmit }) => {
           sx={{ padding: "none" }}
           name="message"
           onChange={handleChange}
+          error={errors.message}
+          helperText={errors.message}
         />
         <Box
           sx={{

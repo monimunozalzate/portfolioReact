@@ -1,8 +1,8 @@
 import { Element } from "react-scroll";
-import ContactForm from "../../custom/contactForm/ContactForm";
 import Navbar from "../../custom/navbar/Navbar";
 import { Box } from "@mui/material";
 import styles from "./Contact.module.css";
+import ContactFormContainer from "../../custom/contactForm/ContactFormContainer";
 
 const Contact = () => {
   return (
@@ -10,7 +10,7 @@ const Contact = () => {
       name="ContactID"
       style={{ backgroundColor: "#242424", position:'relative' }}
     >
-      <ContactForm />
+      <ContactFormContainer />
       <img
         src="src/assets/images/pattern-rings.svg"
         alt="rings"
