@@ -13,10 +13,10 @@ const Info = () => {
       <Box className={styles.personsinfo}>
         <Box>
           <Typography variant="h1" className={styles.h1}>
-            Nice to meet you! I’m <span>Monica Munoz.</span>
+            Nice to meet you! I’m <span>Adam Keyes.</span>
           </Typography>
           <Typography variant="body1" className={styles.paragraph}>
-            Based in Colombia, I’m a front-end developer passionate about building
+            Based in the UK, I’m a front-end developer passionate about building
             accessible web apps that users love.
           </Typography>
         </Box>
